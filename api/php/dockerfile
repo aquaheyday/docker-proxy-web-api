@@ -1,0 +1,22 @@
+FROM php:8.1-fpm
+
+COPY ./php.ini /usr/local/etc/php/
+
+WORKDIR /root
+RUN apt-get update
+RUN apt-get install -y curl
+
+RUN curl -sS https://getcomposer.org/installer | php
+RUN mv composer.phar /usr/bin/composer
+
+RUN docker-php-ext-install pdo_mysql
+RUN apt-get install -y zlib1g-dev && apt-get install -y libzip-dev
+RUN docker-php-ext-install zip
+
+RUN composer global require laravel/installer
+
+RUN ["/bin/bash", "-c", "echo PATH=$PATH:~/.composer/vendor/bin/ >> ~/.bashrc"]
+RUN ["/bin/bash", "-c", "source ~/.bashrc"]
+
+EXPOSE 9000
+CMD ["php-fpm"]
