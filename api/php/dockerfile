@@ -18,5 +18,4 @@ RUN composer global require laravel/installer
 RUN ["/bin/bash", "-c", "echo PATH=$PATH:~/.composer/vendor/bin/ >> ~/.bashrc"]
 RUN ["/bin/bash", "-c", "source ~/.bashrc"]
 
-EXPOSE 9000
 CMD ["php-fpm"]
