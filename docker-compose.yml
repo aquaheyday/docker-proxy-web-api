@@ -7,6 +7,7 @@ services:
       context: ./proxy/nginx/
     ports:
       - ${PORT}:80
+    restart: always
     volumes:
       - ./proxy/nginx/nginx.conf:/etc/nginx/nginx.conf
     depends_on:
@@ -17,6 +18,7 @@ services:
     container_name: web-nginx
     build:
       context: ./web/nginx
+    restart: always
     volumes:
       - ./web/nginx/nginx.conf:/etc/nginx/nginx.conf
       - ${WEB_LOCAL_DIR}:/home
@@ -25,6 +27,7 @@ services:
     container_name: api-nginx
     build:
       context: ./api/nginx/
+    restart: always
     volumes:
       - ./api/nginx/nginx.conf:/etc/nginx/nginx.conf
       - ${API_LOCAL_DIR}:/home
@@ -38,6 +41,7 @@ services:
     container_name: api-php
     build:
       context: ./api/php/
+    restart: always
     volumes:
       - ./api/php/php.ini:/usr/local/etc/php/conf.d/php.ini
       - ${API_LOCAL_DIR}:/home
@@ -54,6 +58,7 @@ services:
     container_name: api-mysql
     image: mysql:8.0
     platform: linux/x86_64
+    restart: always
     volumes:
       - ${MYSQL_LOCAL_DIR}:/var/lib/mysql
     environment:
