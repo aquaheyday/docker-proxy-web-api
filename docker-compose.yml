@@ -34,8 +34,6 @@ services:
     depends_on:
       - api-php
       - api-mysql
-    links:
-      - api-php
 
   api-php:
     container_name: api-php
@@ -43,7 +41,6 @@ services:
       context: ./api/php/
     restart: always
     volumes:
-      - ./api/php/php.ini:/usr/local/etc/php/conf.d/php.ini
       - ${API_LOCAL_DIR}:/home
     depends_on:
       - api-mysql
@@ -51,8 +48,6 @@ services:
       PMA_HOST: api-mysql
       PMA_USERE: ${MYSQL_API_USER}
       PMA_PASSWORD: ${MYSQL_API_PASSWORD}
-    links:
-      - api-mysql
 
   api-mysql:
     container_name: api-mysql
