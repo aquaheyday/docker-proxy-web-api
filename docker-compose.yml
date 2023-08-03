@@ -41,6 +41,7 @@ services:
       context: ./api/php/
     restart: always
     volumes:
+      - ./api/php/php.ini:/usr/local/etc/php/php.ini
       - ${API_LOCAL_DIR}:/home
     depends_on:
       - api-mysql
