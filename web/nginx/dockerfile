@@ -2,6 +2,20 @@ FROM nginx:1.25.1
 
 COPY ./nginx.conf /etc/nginx/nginx.conf
 
+RUN apt-get update
+
+RUN apt-get install -y git unzip
+
+RUN git clone https://github.com/flutter/flutter.git /usr/local/flutter
+
+ENV PATH="/usr/local/flutter/bin:/usr/local/flutter/bin/cache/dart-sdk/bin:${PATH}"
+
+RUN flutter doctor -v
+
+RUN flutter channel master
+
+RUN flutter upgrade
+
 EXPOSE 80
 
 ENTRYPOINT ["nginx","-g","daemon off;"]
