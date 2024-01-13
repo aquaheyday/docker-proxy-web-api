@@ -8,10 +8,10 @@
 3. 접수가 끝난 후 방을 마감하면 랜덤으로 배달원이 배정된다.
 
 #### 구축정보
-AWS EC2  인스턴스 생성 및 Load Balancers를 이용한 ssl 인증서 적용, Route 53 가비아 구매 도메인 연동
-Docker 를 이용하여 proxy, api, web, db서버 구축 (nginx, mysql)
-Laravel + MySql 을 이용해 RESTful API를 구축하기 위해 노력하였습니다.
-ios, aos, web 을 구축하기 위해 flutter 를 사용하였습니다.
+1. AWS EC2  인스턴스 생성 및 Load Balancers를 이용한 ssl 인증서 적용, Route 53 가비아 구매 도메인 연동
+2. Docker 를 이용하여 proxy, api, web, db서버 구축 (nginx, mysql)
+3. Laravel + MySql 을 이용해 RESTful API를 구축하기 위해 노력하였습니다.
+4. ios, aos, web 을 구축하기 위해 flutter 를 사용하였습니다.
 
 ## docker-compose 를 이용한 proxy, web, api 세팅
 
