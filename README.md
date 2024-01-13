@@ -7,7 +7,7 @@
 2. 방 비밀번호 또는 초대 링크를 통해 접속하여 각자 메뉴를 접수한다.
 3. 접수가 끝난 후 방을 마감하면 랜덤으로 배달원이 배정된다.
 
-구축정보
+#### 구축정보
 AWS EC2  인스턴스 생성 및 Load Balancers를 이용한 ssl 인증서 적용, Route 53 가비아 구매 도메인 연동
 Docker 를 이용하여 proxy, api, web, db서버 구축 (nginx, mysql)
 Laravel + MySql 을 이용해 RESTful API를 구축하기 위해 노력하였습니다.
