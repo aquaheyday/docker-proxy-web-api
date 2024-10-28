@@ -16,7 +16,7 @@
 
 ![도커순서 drawio](https://github.com/user-attachments/assets/72b75ad6-52f6-4e6e-9bdb-831f11d76c65)
 
-## docker-compose 를 이용한 proxy, web, api 세팅
+## 버전 정보 및 Docker .env 설정 정보
 
 #### 버전 정보
 |server|type|version
