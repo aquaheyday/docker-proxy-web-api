@@ -1,5 +1,5 @@
 ## 개요
-도커를 이용한 개발환경 세팅 내용입니다.
+도커 컴포즈를 이용한 개발환경 세팅 내용입니다.
 
 ## 실행되는 컨테이너 정보
 버전 컨트롤의 용의성을 위해 각각 컨테이너를 별도로 실행하였습니다.
@@ -16,9 +16,7 @@
 
 ![도커순서 drawio](https://github.com/user-attachments/assets/72b75ad6-52f6-4e6e-9bdb-831f11d76c65)
 
-## 버전 정보 및 Docker .env 설정 정보
-
-#### 버전 정보
+## 버전 정보
 |server|type|version
 |:--:|:--:|:--:
 |proxy|nginx|1.25.1
@@ -27,7 +25,7 @@
 |api|php|8.1-fpm
 |api|mysql|8.0
 
-#### .env 설정
+## docker .env 설정 정보
 |type|info|description
 |:--:|:--:|:--:
 |PORT|80|로컬 서버에서 접근할 포트 번호
