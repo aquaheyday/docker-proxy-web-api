@@ -16,6 +16,10 @@
 
 ![도커순서 drawio](https://github.com/user-attachments/assets/72b75ad6-52f6-4e6e-9bdb-831f11d76c65)
 
+#### 디렉터리 구조
+
+![디렉터리구조 drawio](https://github.com/user-attachments/assets/b8fa0187-59f6-424b-a1db-3e085614f2af)
+
 ## 버전 정보
 |server|type|version
 |:--:|:--:|:--:
