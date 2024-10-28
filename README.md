@@ -16,9 +16,9 @@
 
 ![도커순서 drawio](https://github.com/user-attachments/assets/72b75ad6-52f6-4e6e-9bdb-831f11d76c65)
 
-#### 파일 구조
+## 파일 구조
 
-![파일구성 drawio](https://github.com/user-attachments/assets/d0965415-342a-481b-8864-85437357faa3)
+![파일구조 drawio](https://github.com/user-attachments/assets/bd707187-8e17-4eed-b3e7-4aa70a715c23)
 
 ## 버전 정보
 |server|type|version
