@@ -3,6 +3,9 @@
 
 ![docker구성](https://github.com/user-attachments/assets/49bfcbbd-3f31-4c77-b410-1764ecb5c861)
 
+#### 서버 구성
+![도커순서 drawio](https://github.com/user-attachments/assets/72b75ad6-52f6-4e6e-9bdb-831f11d76c65)
+
 #### 개요
 사내 문화 개선 프로젝트
 막내의 커피 심부름 문화를 개선하여 여러 팀원들이 소통할 수 있는 장을 마련하여 보다 돈독한 팀관계 형성을 목적으로 한 프로젝트
