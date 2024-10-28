@@ -18,7 +18,7 @@
 
 ## 파일 구조
 
-![파일구조 drawio](https://github.com/user-attachments/assets/bd707187-8e17-4eed-b3e7-4aa70a715c23)
+![파일구조 drawio](https://github.com/user-attachments/assets/ba529366-6b29-4db0-8a74-d74b300cd2f8)
 
 ## 버전 정보
 |server|type|version
