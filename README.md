@@ -14,10 +14,10 @@
 1. /api 도메인으로 접근시 API 서버의 80 포트로 포워딩되어 API 서버에서 PHP-FPM 서버의 9000 포트로 포워딩 되며, Laravel 프로젝트가 실행됩니다.
 2. MySQL 컨테이너와 3306 포트를 이용해 통신하게 됩니다.
 
-![도커순서 drawio](https://github.com/user-attachments/assets/72b75ad6-52f6-4e6e-9bdb-831f11d76c65)
+![서버구성도 drawio](https://github.com/user-attachments/assets/6b8fb2fc-c8f0-405b-a556-137946022ab3)
 
 ## 파일 구조
-
+![파일구조 drawio](https://github.com/user-attachments/assets/aca1e87e-6a94-4447-b119-1bc6cb753329)
 
 ## 버전 정보
 |server|type|version
