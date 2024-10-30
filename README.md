@@ -18,7 +18,6 @@
 
 ## 파일 구조
 
-![서버구성도 drawio](https://github.com/user-attachments/assets/cd378f07-a27e-4049-aecb-7fc466650bcf)
 
 ## 버전 정보
 |server|type|version
