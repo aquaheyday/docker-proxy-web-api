@@ -17,14 +17,15 @@
 ![서버구성도 drawio](https://github.com/user-attachments/assets/6b8fb2fc-c8f0-405b-a556-137946022ab3)
 
 ## 파일 구조
+|type|description
 |:--:|:--:
-|dockerfile|도커 이미지 실행을 위한 설정 파일
-|nginx.conf|nginx 설정파일
-|php.ini|php 설정 파일
-|.env|docker-compose 환경변수 파일
-|docker-compose.yml|docker compose 실행 파일
+|dockerfile|도커 이미지 생성 파일
+|nginx.conf|nginx 환경 설정 파일
+|php.ini|php 환경 설정 파일
+|.env|docker-compose 환경 변수 파일
+|docker-compose.yml|컨테이너 관리 및 실행 파일
 
-![파일구조 drawio](https://github.com/user-attachments/assets/aca1e87e-6a94-4447-b119-1bc6cb753329)
+![파일구성도 drawio](https://github.com/user-attachments/assets/752c81fa-bccc-47fc-aeea-d093880e3bc4)
 
 ## 버전 정보
 |server|type|version
